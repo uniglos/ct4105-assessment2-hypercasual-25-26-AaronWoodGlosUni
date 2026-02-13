@@ -119,6 +119,75 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &238530102
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 238530103}
+  - component: {fileID: 238530104}
+  m_Layer: 0
+  m_Name: TouchInputs
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &238530103
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 238530102}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1980595463}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &238530104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 238530102}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02ed55c58c1ea3547a469c8434d77d59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isFunctionActive: 1
+  onTouchStartPosition:
+    m_PersistentCalls:
+      m_Calls: []
+  onTouchEndPosition:
+    m_PersistentCalls:
+      m_Calls: []
+  onTouchStart:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1127268895}
+        m_TargetAssemblyTypeName: TowrGameManager, Assembly-CSharp
+        m_MethodName: StopCube
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onTouchEnd:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -205,8 +274,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalRotation: {x: -0.2894264, y: 0.44063202, z: -0.15255873, w: -0.8359436}
+  m_LocalPosition: {x: -100.08689, y: -26.892126, z: 196.47491}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -424,7 +493,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b3aac9eddbff824cae884034f97a4a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  directionMult: 3
+  directionMult: 0
 --- !u!65 &646038417
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -821,7 +890,7 @@ Transform:
   m_GameObject: {fileID: 1670260781}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -1.637, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -841,6 +910,64 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubePrefab: {fileID: 2723558557362914450, guid: 11e93bccc3826294e9ad2a6f72b75084, type: 3}
   moveDirection: 0
+--- !u!1 &1980595461
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1980595463}
+  - component: {fileID: 1980595462}
+  m_Layer: 0
+  m_Name: Inputs
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1980595462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1980595461}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02ed55c58c1ea3547a469c8434d77d59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isFunctionActive: 1
+  onTouchStartPosition:
+    m_PersistentCalls:
+      m_Calls: []
+  onTouchEndPosition:
+    m_PersistentCalls:
+      m_Calls: []
+  onTouchStart:
+    m_PersistentCalls:
+      m_Calls: []
+  onTouchEnd:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!4 &1980595463
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1980595461}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -102.82399, y: -29.88895, z: 198.14183}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 238530103}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1992402280
 GameObject:
   m_ObjectHideFlags: 0
@@ -1003,7 +1130,7 @@ Transform:
   m_GameObject: {fileID: 2083730033}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -1.696}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1033,3 +1160,4 @@ SceneRoots:
   - {fileID: 997227984}
   - {fileID: 1490354610}
   - {fileID: 1127268896}
+  - {fileID: 1980595463}
