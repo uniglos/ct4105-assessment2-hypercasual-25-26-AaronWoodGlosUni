@@ -654,7 +654,7 @@ MonoBehaviour:
   - {fileID: 1670260783}
   minHangoverForPerfectScore: 0.1
   maxCubeTravelDistance: 4
-  moveSpeed: 1
+  moveSpeed: 1.3
   Camera: {fileID: 330585545}
   onGameStart:
     m_PersistentCalls:
@@ -709,7 +709,7 @@ Transform:
   m_GameObject: {fileID: 1670260781}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.4, y: 1, z: 0.091}
+  m_LocalPosition: {x: 0.0015, y: 1, z: -1.019}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -728,7 +728,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cubePrefab: {fileID: 2723558557362914450, guid: 11e93bccc3826294e9ad2a6f72b75084, type: 3}
-  moveDirection: 0
+  moveDirection: 1
 --- !u!1 &1980595461
 GameObject:
   m_ObjectHideFlags: 0
@@ -813,7 +813,7 @@ Transform:
   m_GameObject: {fileID: 2083730033}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -1.427}
+  m_LocalPosition: {x: 0, y: 1, z: -1.017}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
