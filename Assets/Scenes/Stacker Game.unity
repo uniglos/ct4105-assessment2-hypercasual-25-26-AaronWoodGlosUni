@@ -805,7 +805,7 @@ GameObject:
   - component: {fileID: 1410197433}
   - component: {fileID: 1410197432}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: Troposphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
