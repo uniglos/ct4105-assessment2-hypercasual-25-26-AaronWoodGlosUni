@@ -1988,20 +1988,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameObjectToTrigger: {fileID: 676937824}
   triggerAnimatorParamater: 
---- !u!114 &650332148
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 650332138}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 56cb766dbb6b8f84384ac6fc1e2c5692, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameObjectToTrigger: {fileID: 0}
-  triggerAnimatorParamater: 
 --- !u!1 &654161233
 GameObject:
   m_ObjectHideFlags: 0
@@ -4583,7 +4569,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_UiScaleMode: 0
   m_ReferencePixelsPerUnit: 100
-  m_ScaleFactor: 1
+  m_ScaleFactor: 0.01
   m_ReferenceResolution: {x: 800, y: 600}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
@@ -7871,19 +7857,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5063def185251994080b7522f9c07f62, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.6404149
+      value: 0.47989616
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5063def185251994080b7522f9c07f62, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.6118503
+      value: -0.5233321
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5063def185251994080b7522f9c07f62, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.2997812
+      value: -0.5193263
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5063def185251994080b7522f9c07f62, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.3544563
+      value: -0.4755243
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5063def185251994080b7522f9c07f62, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -7891,7 +7877,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5063def185251994080b7522f9c07f62, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -34.831
+      value: -179.519
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5063def185251994080b7522f9c07f62, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -9197,9 +9183,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 641716657313175499, guid: c4c0c3f1919e66e4b86a174cb7597893, type: 3}
       insertIndex: -1
       addedObject: {fileID: 650332147}
-    - targetCorrespondingSourceObject: {fileID: 641716657313175499, guid: c4c0c3f1919e66e4b86a174cb7597893, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 650332148}
   m_SourcePrefab: {fileID: 100100000, guid: c4c0c3f1919e66e4b86a174cb7597893, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
