@@ -721,7 +721,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameObjectToTrigger: {fileID: 676937824}
-  triggerAnimatorParamater: 
+  triggerAnimatorParamater: Vent Menu Animation
 --- !u!1 &134598179 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: c6a8ec7c5ed1ad54bbb8acd469363b39, type: 3}
@@ -1619,7 +1619,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameObjectToTrigger: {fileID: 676937824}
-  triggerAnimatorParamater: 
+  triggerAnimatorParamater: Vent Menu Animation
 --- !u!1001 &443403663
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1987,7 +1987,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameObjectToTrigger: {fileID: 676937824}
-  triggerAnimatorParamater: 
+  triggerAnimatorParamater: Vent Menu Animation
 --- !u!1 &654161233
 GameObject:
   m_ObjectHideFlags: 0
@@ -3800,7 +3800,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameObjectToTrigger: {fileID: 676937824}
-  triggerAnimatorParamater: 
+  triggerAnimatorParamater: Vent Menu Animation
 --- !u!1 &1043580982
 GameObject:
   m_ObjectHideFlags: 0
@@ -4296,7 +4296,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameObjectToTrigger: {fileID: 676937824}
-  triggerAnimatorParamater: 
+  triggerAnimatorParamater: Vent Menu Animation
 --- !u!1001 &1149717061
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6141,7 +6141,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameObjectToTrigger: {fileID: 676937824}
-  triggerAnimatorParamater: 
+  triggerAnimatorParamater: Vent Menu Animation
 --- !u!1 &1484329548
 GameObject:
   m_ObjectHideFlags: 0
@@ -8714,7 +8714,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameObjectToTrigger: {fileID: 676937824}
-  triggerAnimatorParamater: 
+  triggerAnimatorParamater: Vent Menu Animation
 --- !u!1 &2051701745 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 641716657313175499, guid: c4c0c3f1919e66e4b86a174cb7597893, type: 3}
@@ -8804,7 +8804,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameObjectToTrigger: {fileID: 676937824}
-  triggerAnimatorParamater: 
+  triggerAnimatorParamater: Vent Menu Animation
 --- !u!1 &2061568971
 GameObject:
   m_ObjectHideFlags: 0
