@@ -9,7 +9,7 @@ MonoImporter:
   - playButton: {instanceID: 0}
   - exitButton: {instanceID: 0}
   - titleText: {instanceID: 0}
-  - targetScene: {fileID: 102900000, guid: 65762a7f2ce7c574cb6d75422643b531, type: 3}
+  - targetScene: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

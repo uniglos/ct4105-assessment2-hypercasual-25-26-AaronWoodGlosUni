@@ -912,12 +912,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8180bf289d34cb940a5f753c6469fcaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startMenu: {fileID: 1769432935}
-  quitMenu: {fileID: 1769432935}
-  playButton: {fileID: 2117147061}
-  exitButton: {fileID: 1232159986}
+  startMenu: {fileID: 0}
+  quitMenu: {fileID: 0}
+  playButton: {fileID: 0}
+  exitButton: {fileID: 0}
   titleText: {fileID: 1288578068}
   targetScene: {fileID: 102900000, guid: 65762a7f2ce7c574cb6d75422643b531, type: 3}
+  sceneNameFallback: LAUNCHSCREEN_MENU
 --- !u!4 &1321330282
 Transform:
   m_ObjectHideFlags: 0
@@ -1520,7 +1521,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 2100000, guid: 612e69068e91ddd48bb4bfef39a44d08, type: 2}
+  m_Material: {fileID: 2100000, guid: d7ec701405a07a34cbdab384fc612bf2, type: 2}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
