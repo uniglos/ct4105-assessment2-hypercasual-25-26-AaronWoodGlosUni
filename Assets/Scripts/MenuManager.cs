@@ -1,7 +1,7 @@
 using UnityEngine;                     // Core Unity engine features
 using UnityEngine.UI;                  // Allows this script to reference UI Buttons & Canvases
 using UnityEngine.SceneManagement;     // Required for loading scenes
-using TMPro;                           // Required for TextMeshPro UI elements
+using TMPro;                          // Required for TextMeshPro UI elements
 
 #if UNITY_EDITOR
 using UnityEditor;                     // Gives access to SceneAsset (Editor-only)
