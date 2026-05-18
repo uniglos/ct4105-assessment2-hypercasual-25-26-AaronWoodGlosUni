@@ -916,7 +916,7 @@ MonoBehaviour:
   quitMenu: {fileID: 1769432935}
   playButton: {fileID: 2117147061}
   exitButton: {fileID: 1232159986}
-  titleText: {fileID: 0}
+  titleText: {fileID: 1288578068}
   targetScene: {fileID: 102900000, guid: 65762a7f2ce7c574cb6d75422643b531, type: 3}
 --- !u!4 &1321330282
 Transform:

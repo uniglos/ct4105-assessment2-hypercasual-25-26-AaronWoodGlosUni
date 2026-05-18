@@ -1,2 +1,17 @@
 fileFormatVersion: 2
 guid: 8180bf289d34cb940a5f753c6469fcaa
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - startMenu: {instanceID: 0}
+  - quitMenu: {instanceID: 0}
+  - playButton: {instanceID: 0}
+  - exitButton: {instanceID: 0}
+  - titleText: {instanceID: 0}
+  - targetScene: {fileID: 102900000, guid: 65762a7f2ce7c574cb6d75422643b531, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
