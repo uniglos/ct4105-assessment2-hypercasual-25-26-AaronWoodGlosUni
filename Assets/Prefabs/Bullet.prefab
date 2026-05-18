@@ -33,7 +33,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 3, y: 3, z: 3}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -45,7 +45,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6518652064124910365}
-  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+  m_Mesh: {fileID: 973877516759717424, guid: fa7070926c9b69c49b8d311d91e3400a, type: 3}
 --- !u!23 &5002210981168169237
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -69,7 +69,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 7ba74d25b5ba0a845b393edec1f7dd4e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -136,38 +136,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 6518652064124910365}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9799b911b24b18c4889c80720ee02e8b, type: 3}
+  m_Script: {fileID: 11500000, guid: bb8c6b6171bb060458b292f37fa48c89, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waitTimeBeforeStart: 0
-  regularIntervalTime: 0
-  TimerStart:
-    m_PersistentCalls:
-      m_Calls: []
-  WhileTimer:
-    m_PersistentCalls:
-      m_Calls: []
-  TimerComplete:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: -2286231850638097365}
-        m_TargetAssemblyTypeName: DestroyObject, Assembly-CSharp
-        m_MethodName: DestroySelf
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  RegularTimeIntervalEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  whileTimerPercentComplete:
-    m_PersistentCalls:
-      m_Calls: []
+  timerText: {fileID: 0}
 --- !u!114 &-2286231850638097365
 MonoBehaviour:
   m_ObjectHideFlags: 0
