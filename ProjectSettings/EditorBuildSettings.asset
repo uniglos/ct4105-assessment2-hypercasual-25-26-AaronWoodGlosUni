@@ -14,6 +14,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Roach Runner.unity
     guid: b2d718870cd83bd4fa8d1f4092963924
+  - enabled: 1
+    path: Assets/Scenes/Shooter Game.unity
+    guid: 10af27097288c2743878bbeecbbc2e17
+  - enabled: 1
+    path: Assets/Scenes/TheFisher/TheFisher.unity
+    guid: 65c8c2282ec22c148b385ac7f923e1b2
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0
